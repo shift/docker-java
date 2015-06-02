@@ -14,7 +14,7 @@ test:
     - make test
 
 deployment:
-    hub:
+  hub:
     branch: master
     commands:
       - docker images --all
